@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python3 sync_axonaut_notion.py",
+    "cronSchedule": "*/30 9-18 * * 1-5"
+  }
+}
